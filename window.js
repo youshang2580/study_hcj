@@ -31,11 +31,11 @@ var num = 1;
 var img = document.getElementById("img");//获取img对象
 function fun() {
 	num++;
-	if(num > 6) {
+	if(num > 18) {
 		num = 1;
 	}
 	//执行一次更换一次图片
 	img.src = "https://恋语.xyz/home/images/鬼刀18/" + num + "_鬼刀.jpg";
 }
 //setTimeout(fun,5000);
-setInterval(fun,8000);
+setInterval(fun,10000);
