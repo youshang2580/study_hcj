@@ -35,7 +35,7 @@ function fun() {
 		num = 1;
 	}
 	//执行一次更换一次图片
-	img.src = "https://恋语.xyz/home/image/鬼刀18/" + num + "_鬼刀.jpg";
+	img.src = "https://恋语.xyz/home/images/鬼刀18/" + num + "_鬼刀.jpg";
 }
 //setTimeout(fun,5000);
 setInterval(fun,8000);
